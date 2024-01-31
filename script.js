@@ -10,7 +10,7 @@
 
 const inputWrapper = document.querySelector('.input-wrapper')
 const inputEnter = document.querySelector('#input');
-const itemsContainer = document.querySelector(.items);
+const itemsContainer = document.querySelector('.items');
 
 inputEnter.addEventListener('keydown', function(event) {
     if (event.key == 'Enter') {
